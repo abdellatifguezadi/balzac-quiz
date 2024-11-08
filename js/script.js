@@ -256,13 +256,8 @@ function chargerEtatQuiz() {
             timeLeft = state.timeLeft;
 
             afficherQuestion();
-
-         
-            
             document.querySelector('.btnAfficherRecap').disabled = false;
             document.querySelector('.btnredemare').disabled = false;
-
-       
     }
 
 
