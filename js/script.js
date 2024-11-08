@@ -267,8 +267,8 @@ function initialiserQuiz() {
     questionsRestantes = questionsRestantes.slice(0, nombreQuestionsTotal);
     questionActuelle = 0;
     score = 0;
-    useranswers = [];
     timeLeft = 20;
+    useranswers = [];
 
     document.querySelector('.score').innerHTML = '';
     document.querySelector('.niveau').innerHTML = '';
